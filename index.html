@@ -33,7 +33,8 @@
 
         <article>
 
-            <p>Olá, eu sou o Henrique, tenho 16 anos e gosto de jogar bola. ADD </p>
+            <p>Olá, eu sou o Henrique, tenho 16 anos e gosto de jogar bola. <br>
+                 Comecei a pouco tempo um curso do Senai, que está me auxiliando na criação deste site. </p>
 
         </article>
 
@@ -73,13 +74,36 @@
 
             <section id="Contato">
                 <h2>contato</h2>
-                <p>Tem um contato em mente? Entre em contato.</p>
-                <address>
-                    E-mail: <a href="Henriqueanacletodsouza@gmail.com">Henriqueanacletodsouza@gmail.com</a> <br>
-                    Telefone: <a href="tel:+55 (47)98486-2381">(47)98486-2381</a>
+                
+<form action="">
 
+<label for="nome">Nome: </label>
+<input type="text"  id="nome"  name="nome" required> <br>
 
-                </address>
+<label for="email">E-mail </label>
+<input type="email"  id="email"  name="email"  required>  <br>
+
+<label for="telefone">Telefone: </label>
+<input type="tel"  id="telefone"  name="telefone"  required> <br>
+
+<label for="assunto">Assunto: </label>
+<select name="assunto" id="assunto">
+<option value="orcamento">Orçamento</option>
+<option value="duvida">Dúvida</option>
+<option value="outro">Outro</option>
+</select> <br>
+
+ <label for="mensagem">Mensagem: </label>
+<textarea name="mensagem" id="mensagem" cols="30" rows="10"  required></textarea> <br>
+
+<input type="checkbox"  id="inscricao" name="inscricao">
+<label for="inscricao">Quer conhecer minha newlatter?</label> <br>
+
+<input type="submit"  value="enviar mensagem">
+
+</form>
+
+               
 
             </section>
 
